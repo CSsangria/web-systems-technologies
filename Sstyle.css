@@ -6,6 +6,7 @@ body {
   h1 {
     text-align: center;
     font-size: 35px;
+
   }
   
   p {
@@ -35,8 +36,6 @@ body {
     border-radius:10px;
     background-color: rgb(236, 229, 243);
     font-size: 22px;
-    position: center;
-
   }
 
   select{
@@ -47,6 +46,15 @@ body {
     border-radius:10px;
     background-color: rgb(226, 224, 229);
     font-size: 22px;
+  }
 
-
+  button{
+    font-size: 37px;
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box; 
+    border-radius:55px;
+    right: 10px;
+    position: absolute;
   }
