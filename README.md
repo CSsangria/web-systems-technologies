@@ -1,0 +1,1 @@
+Hello Maam I hope this message finds you well. So hanong nag butang kog readme. Well basically nag experiment kog butang og redirecting something churva chuchu na dile apil sa Activity pero gi add lang nako just for fun na naa koy ma try. thx. 
