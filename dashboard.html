@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="Test2.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+            <h1>Dashboard</h1>  
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Settings</a></li>
+
+        </ul>
+      </nav>
+      <body2>
+      <h1>Dashboard</h1>
+      <button id="logout-btn">Logout</button>
+      </body2>
+    </header>
+      <main>
+        <h2>Welcome to the dashboard!</h2>
+        <p>This is the main content area where you can display various information and charts.</p>
+      </main>
+    <footer>
+      <p>©2024 Dashboard. All rights reserved.</p>
+    </footer>
+    <script>
+      var logoutBtn = document.getElementById('logout-btn');
+      logoutBtn.addEventListener('click', function() {
+          window.location.href = 'logintest.html';
+      }); setTimeout(function() {
+        logoutBtn.classList.add('reveal');
+    }, 1000);
+  </script>
+  
+  </body>
+</html>
+
